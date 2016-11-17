@@ -1,0 +1,126 @@
+ body{
+	font-family: Helvetica, 'Roboto', sans-serif;
+	 background-color: #BCBCBC;
+	 background-image: url(../img-export/accordion/tie.png);
+ }
+
+h1{
+	color: black;
+}
+
+p, h1, h2,h3,h4,a{
+
+	font-family: Helvetica, 'Roboto', sans-serif;
+}
+
+p{
+	margin-left: 20px;
+}
+
+#navi {
+	 text-align:center;
+}
+
+#navi ul li {
+	 background:#333;
+	 color:#fff;
+	 margin:1px; 
+	text-decoration: none;
+}
+ 
+.navi1{
+	padding-left: 30px;
+	text-decoration: none;
+	color: black;
+	margin:0 auto;
+}
+
+#navi a {
+	 padding:10px;
+	 color:black;
+	 font-size: 25px
+}
+
+
+#navi a:hover {
+	 background:#05A9FB;
+	opacity: 0.6;
+}
+
+a:hover{
+	color:red;
+}
+
+.titell{
+
+
+	color: black;
+}
+
+#arbeitsjournal{
+	opacity: 0.94;
+	margin:0 auto;
+	max-width: 1400px;
+	background-color: white;
+	box-shadow: 7px 7px 7px grey;
+}
+
+.day{
+	text-decoration: underline;
+	margin-left: 20px;
+}
+
+.header:hover{
+	color: red;
+}
+
+.active-header {
+	background: url(../img-export/accordion/active-header.gif);
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.active-header:hover {
+	background: url(../img-export/accordion/active-header.gif);
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.inactive-header {
+	background: url(../img-export/accordion/inactive-header.gif);
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.inactive-header:hover {
+	background: url(../img-export/accordion/inactive-header.gif);
+	background-repeat: no-repeat;
+	background-position: right 50%;
+}
+
+.accordion-header {
+	font-size: 30px;
+	padding: 35px 115px 35px 190px;
+	border-bottom: 1px solid #B6BAC2;
+	cursor: pointer;
+	letter-spacing: 0.0em;
+	height: auto;
+	position: relative;
+}
+.accordion-content {
+	display: none;
+	padding: 32px;
+	border-bottom: 1px solid #B6BAC2;
+	max-width: 100%;
+	background-color: #f4f6f8;
+	font-size: 15px;
+	letter-spacing: 0.05em;
+	line-height: 30px;
+}
+
+#logo{
+vertical-align: center;
+
+margin-left: 400px,
+
+}
